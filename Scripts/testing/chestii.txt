@@ -1,0 +1,2 @@
+inainte de orice script, executa:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
