@@ -15,7 +15,6 @@ for (case, i) in zip(CASES, range(len(CASES))):
         monoms = map(lambda v: ((2 * random.randint(0, 1) - 1) * random.randint(1, 1000), v), list(exponents))
 
         file = open(filename, "w")
-        file.write(str(monom_nr) + "\n")
         for monom in monoms:
             file.write(str(monom[0]))
             file.write(" ")
